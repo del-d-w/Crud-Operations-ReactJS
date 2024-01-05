@@ -89,7 +89,7 @@ const EmployeeForm = () => {
       <h1 style={{fontSize:35,margin:20}}>Employees Data</h1>
       <div style={{textAlign:'right'}}>
       <button onClick={openModal} style={{margin:30,marginRight:80}} className='btn btn-primary'>
-        Add Employee
+        + Add Employee
         </button>
       </div>
       <Modal show={showModal} onHide={closeModal}>
@@ -191,7 +191,7 @@ const EmployeeForm = () => {
           <div>
             <label htmlFor="dob" className='mb-3'>Date Of Birth:</label>
             <input
-              type="number"
+              type="date"
               id="dob"
               name="dob"
               value={formData.dob}
