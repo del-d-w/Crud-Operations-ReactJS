@@ -100,7 +100,7 @@ const EmployeeForm = () => {
         </Modal.Header>
         <Modal.Body>
         <div>
-            <label htmlFor="firstName" className='mb-3'>First Name:</label>
+            <label htmlFor="firstName" className='mb-3' style={{fontWeight:630}}>First Name:</label>
             <input
               type="text"
               id="firstName"
@@ -113,7 +113,7 @@ const EmployeeForm = () => {
           </div>
 
           <div>
-            <label htmlFor="lastName" className='mb-3'>Last Name:</label>
+            <label htmlFor="lastName" className='mb-3' style={{fontWeight:630}}>Last Name:</label>
             <input
               type="text"
               id="lastName"
@@ -125,9 +125,9 @@ const EmployeeForm = () => {
             />
           </div>
           <div className="mb-3">
-          <label className='mb-3'>Gender:</label>
+          <label className='mb-3' style={{fontWeight:630}}>Gender:</label>
           <div>
-            <label htmlFor="male">
+            <label htmlFor="male" style={{ marginRight: 10 }}>
               <input className='mb-3'
                 type="radio"
                 id="male"
@@ -138,7 +138,7 @@ const EmployeeForm = () => {
               />
               Male
             </label>
-            <label htmlFor="female" className="mr-3">
+            <label htmlFor="female"  style={{ marginRight: 10 }}>
               <input
                 type="radio"
                 id="female"
@@ -163,7 +163,7 @@ const EmployeeForm = () => {
           </div>
 
           <div>
-            <label htmlFor="email" className='mb-3'>Email:</label>
+            <label htmlFor="email" className='mb-3' style={{fontWeight:630}}>Email:</label>
             <input
               type="text"
               id="email"
@@ -176,7 +176,7 @@ const EmployeeForm = () => {
           </div>
 
           <div>
-            <label htmlFor="salary" className='mb-3'>Salary:</label>
+            <label htmlFor="salary" className='mb-3' style={{fontWeight:630}}>Salary:</label>
             <input
               type="number"
               id="salary"
@@ -189,7 +189,7 @@ const EmployeeForm = () => {
           </div>
 
           <div>
-            <label htmlFor="dob" className='mb-3'>Date Of Birth:</label>
+            <label htmlFor="dob" className='mb-3' style={{fontWeight:630}}>Date Of Birth:</label>
             <input
               type="date"
               id="dob"
@@ -202,7 +202,7 @@ const EmployeeForm = () => {
           </div>
 
           <div>
-            <label htmlFor="city" className='mb-3'>City:</label>
+            <label htmlFor="city" className='mb-3' style={{fontWeight:630}}>City:</label>
             <input
               type="text"
               id="city"
@@ -215,7 +215,7 @@ const EmployeeForm = () => {
           </div>
 
           <div>
-            <label htmlFor="address" className='mb-3'>Address:</label>
+            <label htmlFor="address" className='mb-3' style={{fontWeight:630}}>Address:</label>
             <input
               type="text"
               id="address"
