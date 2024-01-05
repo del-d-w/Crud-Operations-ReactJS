@@ -1,0 +1,46 @@
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input {
+  width: 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.quantity_minus:hover, .quantity_plus:hover {
+  background-color: #45a049;
+}
